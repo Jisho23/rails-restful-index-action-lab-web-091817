@@ -5,3 +5,8 @@
 #
 #   cities = City.create([{ name: 'Chicago' }, { name: 'Copenhagen' }])
 #   Mayor.create(name: 'Emanuel', city: cities.first)
+student_hash = {:first_name=>'Josh',:last_name=>'Denenberg'}
+new_student = Student.new
+new_student.first_name = 'Josh'
+new_student.last_name = 'Denenberg'
+new_student.save
